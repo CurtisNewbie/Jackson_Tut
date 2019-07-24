@@ -1,4 +1,4 @@
-package objectMapper;
+package objectmapper;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonParseException;
