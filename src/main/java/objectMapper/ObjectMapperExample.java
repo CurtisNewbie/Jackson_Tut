@@ -10,6 +10,14 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * ObjectMapper is the main actor class of Jackson library.
+ * ObjectMapper class ObjectMapper provides functionality for
+ * reading and writing JSON, either to and from basic POJOs
+ * (Plain Old Java Objects), or to and from a general-purpose
+ * JSON Tree Model (JsonNode), as well as related functionality
+ * for performing conversions.
+ */
 public class ObjectMapperExample {
 
     public static void main(String[] args) {
