@@ -6,6 +6,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import student.Student;
 
 import java.io.File;
 import java.io.IOException;
@@ -53,7 +54,7 @@ public class ObjectMapperExample {
         // create a object mapper (method 2 above)
         ObjectMapper mapper = new com.fasterxml.jackson.databind.ObjectMapper();
         try {
-            // map json object to objectMapper.Student class
+            // map json object to student.Student class
             Student student = mapper.readValue(aJsonObject, Student.class);
 
             System.out.println("Json deserialised: " + student.toString());
@@ -69,7 +70,7 @@ public class ObjectMapperExample {
         /*
         ---------------------------------------
 
-         serialize this objectMapper.Student object to Json
+         serialize this student.Student object to Json
 
          --------------------------------------
          */
@@ -89,7 +90,7 @@ public class ObjectMapperExample {
         /*
         ---------------------------------------
 
-        serialize a objectMapper.Student object to Json to a local file.
+        serialize a student.Student object to Json to a local file.
 
         ---------------------------------------
          */

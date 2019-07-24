@@ -1,4 +1,4 @@
-package objectMapper;
+package student;
 
 /**
  * This is like a Java bean
@@ -44,6 +44,6 @@ public class Student {
      * @return the properties of this object
      */
     public String toString() {
-        return "objectMapper.Student:[ Name:" + name + " Major:" + major + " Age:" + age + "]";
+        return "student.Student:[ Name:" + name + " Major:" + major + " Age:" + age + "]";
     }
 }
