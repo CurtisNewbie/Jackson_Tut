@@ -32,7 +32,7 @@ public class DataBindingExample {
             Lists, Strings, Numbers, Booleans and null objects.
             3.2 Full Data Binding - Converts JSON to and from any JAVA type.
 
-         */
+     */
 
     public static void main(String[] args) {
 
